@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="37.0" layoutY="130.0" prefHeight="35.0" prefWidth="125.0" text="Login:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="165.0" prefHeight="35.0" prefWidth="125.0" text="Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="textPass" layoutX="162.0" layoutY="170.0" />
+      <TextField fx:id="textLogin" layoutX="162.0" layoutY="135.0" />
+      <Label fx:id="showStatus" layoutX="37.0" layoutY="45.0" prefHeight="35.0" prefWidth="371.0" text="Статус:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="186.0" layoutY="327.0" mnemonicParsing="false" onAction="#pressRegistr" text="Регистрация">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="335.0" layoutY="327.0" mnemonicParsing="false" onAction="#pressSignOut" text="Вход">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
